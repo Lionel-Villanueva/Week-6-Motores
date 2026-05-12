@@ -75,7 +75,6 @@ public class PlayerController : MonoBehaviour
 
         if(IsDashing)
         {
-            //->convertir el dash a un barrido por el piso! dash con gravedad integrada omaegoto!
             moveDir = transform.forward * dashForce * (dashTimer/dashDuration) ;
 
             dashTimer -= Time.deltaTime;
