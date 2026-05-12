@@ -47,7 +47,7 @@ public class S06Examples : MonoBehaviour
             float curveValue = curve.Evaluate(currentTime/maxTime);
 
 
-            gameObject.transform.position = Vector3.Lerp(currentTransfor.position, finalPos, curveValue);//->resolver :D
+            gameObject.transform.position = Vector3.Lerp(currentTransfor.position, finalPos, curveValue);
 
             currentTime += Time.deltaTime;
 

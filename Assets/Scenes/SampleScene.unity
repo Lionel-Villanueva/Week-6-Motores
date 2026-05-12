@@ -280,7 +280,7 @@ Transform:
   m_GameObject: {fileID: 23321236}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.192, y: -0.00000023842, z: 4.2188}
+  m_LocalPosition: {x: -13.89, y: -0.00000023842, z: 4.2188}
   m_LocalScale: {x: 3.757164, y: 1, z: 1.5623719}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 264501550}
   m_Layer: 0
   m_Name: Suelo
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -845,7 +845,7 @@ GameObject:
   - component: {fileID: 390965741}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
